@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+h1 {
+    color: #000000;
+}
+#searchInput {
+    padding: 10px; /* Aumente o tamanho da caixa de pesquisa */
+    border: 1px solid #000000; /* Adicione uma borda à caixa de pesquisa */
+    border-radius: 4px; /* Adicione bordas arredondadas à caixa de pesquisa */
+    margin: 10px 0; /* Adicione margem superior e inferior à caixa de pesquisa */
+    width: 80%; /* Aumente a largura da caixa de pesquisa */
+}
+#searchButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Aumente o tamanho do botão de pesquisa */
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px; /* Adicione bordas arredondadas ao botão de pesquisa */
+}
+#sortByStars, #sortByWatchers {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Aumente o tamanho dos botões de organização */
+    cursor: pointer;
+    margin: 0 5px; /* Adicione margem entre os botões de organização */
+    border-radius: 4px; /* Adicione bordas arredondadas aos botões de organização */
+}
+#results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.repository-item {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 1px; /* Aumente a margem entre quadrados */
+    width: calc(33.33% - 20px); /* Aumente a largura dos quadrados */
+    box-sizing: border-box;
+}
